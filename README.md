@@ -29,3 +29,15 @@ The following SHA256 hashes were calculated for the original evidence files befo
 | file3.txt | D496C22B5182C65F3169EFECE5E5117B098891BDA436C1A11BFE78B09305DBF7 |
 | file4.txt | 2078B674132E61B609D6F632C58D78BDC77E4A3277DB611E72C85698E467DD0 |
 | file5.txt | 42B880E69A0F0EA6331CB5CAA0CDA1DAED0890F3AFFC13E357FD2A86D3DC63C2 |
+
+### Integrity Test Results
+
+After modifying file1.txt in the evidence-copy folder, I recalculated its SHA256 hash.
+
+| File | SHA256 Hash |
+|---|---|
+| Original file1.txt | 60A3DF070A9C2FDF903683A388A1FA66306D32BB42499C1FC7497D816CFCB7BD |
+| Modified file1.txt | E0B6C2D3BD36C91196A142F79A1B045E3F06E8B780FF2C99CC4164CD69200C29 |
+
+The different hash values confirm that the copied file was modified and demonstrate how SHA256 can detect changes to digital evidence.
+
